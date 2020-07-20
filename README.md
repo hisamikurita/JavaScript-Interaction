@@ -17,3 +17,16 @@
   npm install  
   npm run start  
 ```
+
+● <a href="https://hisamikurita.github.io/JavaScript-Interaction/mouse-randomwalk/dist/">DEMO</a>
+
+![スクリーンショット (279)](https://user-images.githubusercontent.com/47776346/82793760-68522980-9eac-11ea-82ce-9a9bd608d6a2.png)
+
+## Usage
+* Clone repository<br>
+* Install Node.js<br>
+* Run following commands<br>
+```
+  npm install  
+  npm run start  
+```
