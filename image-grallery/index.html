@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<link rel="stylesheet" href="./style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js" defer></script>
+<script src="./index.js" defer></script>
+</head>
+<body>
+<div>
+    <div id="point">
+        <canvas id="canvas"></canvas>
+    </div>
+    <div id="circle"></div>
+</div>
+<div id="container">
+    <div>
+        <div id="slide-anime"></div>
+        <ul class="list">
+            <li class="slide"><img src="./img/img01.jpg" alt=""></li>
+            <li class="slide"><img src="./img/img02.jpg" alt=""></li>
+            <li class="slide"><img src="./img/img03.jpg" alt=""></li>
+            <li class="slide"><img src="./img/img04.jpg" alt=""></li>
+            <li class="slide"><img src="./img/img05.jpg" alt=""></li>
+            <li class="slide"><img src="./img/img06.jpg" alt=""></li>
+        </ul>
+    </div>
+    <div class="arrow-wrap">
+        <span class="arrow arrow_right btn" id="next-btn"></span>
+        <span class="arrow arrow_left btn" id="prev-btn"></span>
+    </div>
+    <div class="bullet-wrap">
+        <span class="bullet_circle active btn"></span>
+        <span class="bullet_circle btn"></span>
+        <span class="bullet_circle btn"></span>
+        <span class="bullet_circle btn"></span>
+        <span class="bullet_circle btn"></span>
+        <span class="bullet_circle btn"></span>
+    </div>
+</div>
+</body>
+</html>
